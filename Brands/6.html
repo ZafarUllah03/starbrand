@@ -1,0 +1,421 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>7 Spices</title>
+</head>
+
+<script src="../JS.js"></script>
+
+<link rel="icon" href="../images/fevicon copy.png" type="image/x-icon"/>
+<link rel="shortcut icon" href="images/fevicon.jpg" type="image/x-icon"/>
+
+
+
+
+<style>
+*{
+	margin:auto;
+	}
+
+
+.main{
+	height:1200px;
+	width:1000px;
+/*    border:1px solid;
+*/	margin-top:3px;	
+	}
+	 
+
+header{
+	height:120px;
+	width:1000px;
+	/*border:1px solid;*/
+	}	
+
+
+img{
+	margin-top:10px;
+	}
+	
+
+.top{
+	width:100%;
+	height:34px;
+	margin:auto;
+	background-color:#1C0000;
+	margin-top:20px;
+	}
+	
+
+.toptext{
+	font-family:Verdana, Geneva, sans-serif;
+	color:#FFF;
+	padding:9px;
+	position:absolute;
+	margin-left:0px;
+	font-size:14px;
+	margin-top:-37px;}
+
+.nav{
+	border-bottom:1px solid #D8D8D6;
+	border-top:1px solid #D8D8D6;
+	}
+.nav ul{
+	margin:0;
+	padding:0;
+	list-style:none;}
+.nav ul li{
+	display:inline-block;}
+.nav ul li a{
+	border-right:1px solid #D8D8D6;
+	font-size:13px;
+	display:block;
+	padding:15px;
+	text-decoration:none;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#3F3F3F;
+	line-height:20px;
+	}				
+nav ul li a:hover{
+	color:#F93;}		
+.searchbox{
+	height:30px;
+	width:220px;
+/*	border:1px solid #000;*/
+	margin-top:-55px;
+	margin-right:0px;}
+
+
+#searchbuttom{
+	position:absolute;
+	margin-top:0px;
+	margin-left:13px;}	
+	
+.contactusbox{
+	margin-top:10px;
+	height:500px;
+	width:1000px;
+/*	border:1px solid #000;*/}
+
+.box{
+	position:absolute;
+	height:500px;
+	width:1000px;
+	background-color:#F9F9F9;}		
+.work{
+	margin-left:20px;
+	margin-top:60px;
+	height:350px;
+	width:600px;
+/*	border:1px solid;*/}
+.textfeild{
+	margin-top:20px;
+	height:30px;
+	width:450px;}	
+.messagetextfeild{
+	margin-top:20px;
+	height:180px;
+	width:450px;}	
+.btn{
+	font-family:Verdana, Geneva, sans-serif;
+	color:#FFF;
+	margin-top:20px;
+	height:30px;
+	width:100px;
+	background-color:#F90069;
+	border:none;}	
+.h1{
+	margin-top:20px;
+	margin-left:20px;
+	position:absolute;
+	font-size:23px;
+	font-family:"Arial Black", Gadget, sans-serif;
+	color:#FF359A;}
+.map{
+	width:450px;
+	height:360px;
+	position:absolute;
+	margin-top:-360px;
+	margin-left:400px;}		
+
+
+
+.brandimg1{
+	margin-left:20px;
+	margin-top:100px;
+	position:absolute;
+	height:100px;
+	width:150px;
+	transition:all ease-in 0.3s;}
+.brandimg1:hover{
+	margin-top:105px;}	
+.brandimg2{
+	margin-left:250px;
+	margin-top:125px;
+	position:absolute;
+	height:40px;
+	width:150px;
+	transition:all ease-in 0.3s;}
+.brandimg2:hover{
+	margin-top:120px;}
+.brandimg3{
+	margin-left:410px;
+	margin-top:-2px;
+	position:absolute;
+	height:300px;
+	width:350px;
+	transition:all ease-in 0.3s;}
+.brandimg3:hover{
+	margin-top:-5px;}
+.brandimg4{
+	margin-left:750px;
+	margin-top:50px;
+	position:absolute;
+	height:200px;
+	width:200px;
+	transition:all ease-in 0.3s;}
+.brandimg4:hover{
+	margin-top:55px;}	
+.footer{
+	margin-top:923px;
+	position:absolute;	
+	height:400px;
+	width:100%;
+	background-color:#000;}	
+.aboutstore{
+	font-size:20px;
+	margin:30px;
+	margin-top:282px;
+	color:#F93;
+	position:absolute;
+	font-family:Tahoma, Geneva, sans-serif;}	
+p{
+	color:#FFF;
+	font-size:15px;
+	margin-top:10px;}	
+.footerlogo{
+	margin-left:700px;
+	position:absolute;
+	margin-top:-5px;}	
+.finfo{
+	margin-top:-230px;
+	position:absolute;
+	margin-left:310px;}	
+.infodetail{
+	margin-top:-195px;
+	margin-left:310px;
+	font-size:15px;
+	position:absolute;
+	color:#FFF;}	
+.connectwithus{
+	color:#F93;
+	margin-top:-230px;
+	position:absolute;
+	margin-left:500px;}	
+.address{
+	margin-top:15px;
+	font-size:15px;
+	color:#FFF;
+	position:absolute;}
+	
+h3{
+	color:#F93;
+	font-size:30px;
+	position:absolute;
+	margin-top:-440px;
+	margin-left:450px;}					
+h4{
+	color:#999;
+	font-family:"Times New Roman", Times, serif;
+	font-size:14px;
+	position:absolute;
+	margin-top:-390px;
+	margin-left:450px;}
+.mainimg{
+	border:1px solid #999;
+	width:400px;
+	height:450px;}	
+		
+.price{
+
+	color:#999;
+	position:absolute;
+	margin-top:-320px;
+	margin-left:450px;}
+.productdetails{
+	font-size:24px;
+	color:#F93;
+	position:absolute;
+	margin-top:-300px;
+	margin-left:450px;}
+				
+.pd{
+	font-size:14px;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color:#666;
+	position:absolute;
+	margin-top:-265px;
+	margin-left:450px;}
+.bt1{
+	font-size:15px;
+	color:#FFF;
+	background-color:#F93;
+	margin-left:47px;
+	margin-top:320px;
+	position:absolute;
+	height:50px;
+	width:200px;
+	border:none;}
+.bt1:hover{
+	background-color:#C63;}	
+.bt2{
+	font-size:15px;
+	color:#FFF;
+	background-color:#F93;
+	margin-left:277px;
+	margin-top:320px;
+	position:absolute;
+	height:50px;
+	width:200px;
+	border:none;}
+.bt2:hover{
+	background-color:#C63;}		
+.follow{
+	margin-top:-230px;
+	margin-left:800px;
+    position:absolute;}		
+
+		
+a{
+	color:#FFF;
+	text-decoration:none;}
+.icon1{
+	position:absolute;
+	margin-left:0px;}	
+.icon2{
+	position:absolute;
+	margin-left:50px;}
+.icon3{
+	position:absolute;
+	margin-left:50px;
+	margin-top:60px;}
+.icon4{
+	position:absolute;
+	margin-left:0px;
+	margin-top:60px;}					
+</style>
+
+<body>
+
+<div class="top"></div>
+
+
+<footer class="footer">
+</footer>
+
+ <div class="main">
+
+<!--This Is main Text OF black head Start Here-->
+<marquee class="toptext" behavior="alternate">
+Welcome To STAR Brand Support +92 23456789
+</marquee>
+<!--This Is main Text OF black head End Here-->
+<header>
+
+<a href="../index.html">
+<img src="../images/starbrands.png" height="90px" width="220" />
+</a>  
+
+<div class="searchbox"><input type="text" placeholder="Search Entire Store Here...."><img id="searchbuttom" src="../images/search.png" height="21" width="25"></div>
+</header>
+
+<nav class="nav">
+
+<ul>		
+
+<li><a href="../index.html">HOME</a></li>
+
+<li><a href="../gallary.html">GALLARY</a></li>
+<li><a href="../products.html">PRODUCTS</a></li>
+<li><a href="../About US.html">ABOUT US</a></li>
+<li><a href="../contact us.html">CONTACT US</a></li>
+</ul>
+</nav>
+
+<section class="contactusbox">
+
+<div class="box">
+<img class="mainimg"  src="../images/11-1003.jpg">
+<h3>7 Spices Mix
+
+</h3>
+<h4>Gives an authentic Middle Eastern flavor to your meat and poultry <br>dishes. Commonly used as a marinade for meat or as a finishing spice. <br>Aleppo Seven Spice is a blend of fragrant spices like cinnamon,<br> galanga, cardamom and black pepper.  </h4>
+<div class="price"><b>PRICE Rs 50</b></div>
+<div class="productdetails"><b>Producat Details</b></div>
+<div class="pd">
+<b>Item Type</b>&nbsp;:&nbsp;
+Homecoming<br>
+<b>What you get</b>&nbsp;:&nbsp;56.7g of 7 Spices Mix Packet.<br>
+<b>Ingredients</b>&nbsp;:&nbsp;ALLSPICE, BLACK PEPPER, CORIANDER, CLOVES, CUMIN, NUTMEG, AND OTHER SPICES. <br>
+</div>
+
+<input class="bt1" type="button" value="CONTACT SUPPLIER">
+<input class="bt2" type="button" value="START ORDER">
+
+</div>
+</section>
+
+
+
+<div class="aboutstore">
+<b>ABOUT STORE</b>
+<p>Star Organic farm is commenced in the<br> year 1988. Company is involved in trading<br>
+  and manufacturing a wide range of <br>Organic Products and spices to the<br> consumers all
+  around the global market.<br>Company has wide variety of collection of <br>products lies of
+Nutritious cereals, Pulses,<br> Spices and Condiments, Cooking Oils,<br> Fruit Pulps,
+  Agro Products, Oils,<br> Wheat and Wheat Flour, Rice and Rice <br>products and so
+  on.</p>
+<img  class="footerlogo"src="..\images\starbrands.png" height="120" width="250">
+<div class="finfo"><b>INFORMATION</b></div>
+
+<div class="infodetail">
+<a   href="../contact us.html">Contact Us</a><br>
+<br>
+<a href="../about us.html">About Us</a><br>
+<br>
+<a  href="../products.html">Products</a><br>
+<br>
+<a  href="../gallery.html">Gallery</a><br>
+<br>
+<a href="../index.html">Home</a></div>
+
+<div class="connectwithus
+"><b>Address</b><div class="address">SP-2, 22 Godown Industrial Area,<br>
+Habib Garden, Near Nazimabad Underpass,<br>
+Plot 1E,3/1, Nazimabad #1, Karachi<br>
+info@starbrand.com.pk<br>
+</div></div>
+
+
+<div class="follow"><b>Follow US</b><br>
+<a href="https://www.facebook.com"><img  class="icon1" src="../images/facebook.png" height="40" width="40"></a> 
+
+<a href="https://www.yahoo.com"><img class="icon2"s src="../images/yahoo.png" height="40" width="40"></a>
+
+<a href="https://www.twitter.com"><img  class="icon3" src="../images/Twitter.png" height="40" width="40"> </a> 
+
+
+<a href="https://www.pinterest.com"><img class="icon4" src="../images/Pinterest.png" height="40" width="40"></a>
+</div>
+<!--Footer Work Section End Here-->
+
+
+
+
+
+</div>
+<!--Main Div Close Here all website wrap here-->
+
+</body>
+</html>
