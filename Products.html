@@ -1,0 +1,851 @@
+<!doctype html>
+<html>
+<head>
+
+<meta charset="utf-8">
+<title>Products</title>
+
+<link rel="icon" href="images/fevicon copy.png" type="image/x-icon"/>
+<link rel="shortcut icon" href="images/fevicon.jpg" type="image/x-icon"/>
+
+<script src="JS.js">
+</script>
+
+<script src="libaray.js"></script>
+
+<style>
+*{
+	margin:auto;
+	}
+
+
+.main{
+	height:1450px;
+	width:1000px;
+/*    border:1px solid;
+*/	margin-top:3px;	
+	}
+	 
+
+header{
+	height:120px;
+	width:1000px;
+	/*border:1px solid;*/
+	}	
+
+
+img{
+	margin-top:10px;
+	}
+	
+
+.top{
+	width:100%;
+	height:34px;
+	margin:auto;
+	background-color:#1C0000;
+	margin-top:20px;
+	}
+	
+
+.toptext{
+	font-family:Verdana, Geneva, sans-serif;
+	color:#CCC;
+	padding:9px;
+	position:absolute;
+	margin-left:0px;
+	font-size:14px;
+	margin-top:-37px;}	
+
+.nav{
+	border-bottom:1px solid #D8D8D6;
+	border-top:1px solid #D8D8D6;
+	}
+.nav ul{
+	margin:0;
+	padding:0;
+	list-style:none;}
+.nav ul li{
+	display:inline-block;}
+.nav ul li a{
+	border-right:1px solid #D8D8D6;
+	font-size:13px;
+	display:block;
+	padding:15px;
+	text-decoration:none;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#3F3F3F;
+	line-height:20px;
+	}				
+.nav ul li a:hover{
+	color:#F93;}		
+	
+.searchbox{
+	height:30px;
+	width:220px;
+/*	border:1px solid #000;*/
+	margin-top:-55px;
+	margin-right:0px;}
+
+
+#searchbuttom{
+	position:absolute;
+	margin-top:0px;
+	margin-left:13px;}	
+
+section{
+	height:900px;
+	width:1000px;
+	/*border:1px solid #000;*/
+	margin-right:380px;
+    margin-top:110px;}	
+
+.btn{
+	margin-top:40px;	
+	position:absolute;
+	/*border:1px solid red;*/
+	height:70px;
+	width:1000px;
+}
+
+.des1{
+	/*border:1px solid red;*/
+	height:800px;
+	width:1000px;
+	position:relative;
+	margin-top:100px;
+	margin-left:0px;
+}
+.des2{
+    /*border:1px solid red;*/
+	height:800px;
+	width:1000px;
+	position:relative;
+	margin-top:100px;
+	margin-left:0px;
+	display:none;
+}
+.des3{
+	/*border:1px solid red;*/
+	height:800px;
+	width:1000px;
+	position:relative;
+	margin-top:100px;
+	margin-left:0px;
+	display:none;
+}
+.des4{
+	/*border:1px solid red;*/
+	height:800px;
+	width:1000px;
+	position:relative;
+	margin-top:100px;
+	margin-left:0px;
+	display:none;
+}
+
+.des5{
+    /*border:1px solid red;*/
+	height:800px;
+	width:1000px;
+	position:relative;
+	margin-top:100px;
+	margin-left:0px;
+	display:none;
+}
+.d1{
+	/*border:1px solid red;*/
+	height:320px;
+	width:260px;
+	float:left;
+	margin-top:30px;
+	margin-left:54px;
+}		
+
+.b1{
+	font-size:14px;
+	color:#FFF;
+	border:none;
+	background-color:#F93;
+	height:40px;
+	width:190px;
+	margin-right:8px;}
+.b2{
+	font-size:14px;
+	color:#FFF;
+	border:none;
+	background-color:#F93;
+	height:40px;
+	width:190px;
+	margin-right:8px;}
+.b3{
+	font-size:14px;
+	color:#FFF;
+	border:none;
+	background-color:#F93;
+	height:40px;
+	width:190px;
+	margin-right:8px;}
+.b4{
+	font-size:14px;
+	color:#FFF;
+	border:none;
+	background-color:#F93;
+	height:40px;
+	width:190px;
+	margin-right:8px;
+	}
+
+.b5{
+	font-size:14px;
+	color:#FFF;
+	border:none;
+	background-color:#F93;
+	height:40px;
+	
+	width:190px;
+	}
+
+	
+#d1b{
+	opacity:0.3;
+	border:2px solid #999;
+	}	
+	
+.wheatproduct1{
+	position:absolute;
+	margin-top:0px;
+	margin-left:20px;
+	}
+.wheatproduct2{
+	position:absolute;
+	margin-top:0px;
+	margin-left:20px;
+	}	
+.wheatproduct3{
+	position:absolute;
+	margin-top:0px;
+	margin-left:20px;
+	}	
+.wheatproduct4{
+	position:absolute;
+	margin-top:0px;
+	margin-left:20px;
+	}						
+.wheatproduct5{
+	position:absolute;
+	margin-top:0px;
+	margin-left:20px;
+	}	
+.wheatproduct6{
+	position:absolute;
+	margin-top:0px;
+	margin-left:20px;
+	}
+
+.riceproduct1{
+	position:absolute;
+	margin-top:0px;
+	margin-left:20px;
+	}
+.riceproduct2{
+	position:absolute;
+	margin-top:0px;
+	margin-left:20px;
+	}	
+.riceproduct3{
+	position:absolute;
+	margin-top:0px;
+	margin-left:20px;
+	}	
+.riceproduct4{
+	position:absolute;
+	margin-top:0px;
+	margin-left:20px;
+	}						
+.riceproduct5{
+	position:absolute;
+	margin-top:0px;
+	margin-left:20px;
+	}	
+.riceproduct6{
+	position:absolute;
+	margin-top:0px;
+	margin-left:20px;
+	}				
+
+.productpulses1{
+	position:absolute;
+	margin-top:0px;
+	margin-left:20px;
+	}
+.productpulses2{
+	position:absolute;
+	margin-top:0px;
+	margin-left:20px;
+	}
+.productpulses3{
+	position:absolute;
+	margin-top:0px;
+	margin-left:20px;
+	}
+.productpulses4{
+	position:absolute;
+	margin-top:0px;
+	margin-left:20px;
+	}
+.productpulses5{
+	position:absolute;
+	margin-top:0px;
+	margin-left:20px;
+	}
+.productpulses6{
+	position:absolute;
+	margin-top:0px;
+	margin-left:20px;
+	}				
+.adjust{
+	margin top:980px;
+}
+.product1{
+	position:absolute;
+	margin-top:0px;
+	margin-left:20px;
+	}
+.product2{
+	position:absolute;
+	margin-top:0px;
+	margin-left:20px;
+	}	
+.product3{
+	position:absolute;
+	margin-top:0px;
+	margin-left:20px;
+	}
+.product4{
+	position:absolute;
+	margin-top:0px;
+	margin-left:20px;
+	}
+.product5{
+	position:absolute;
+	margin-top:0px;
+	margin-left:20px;
+	}
+.product6{
+	position:absolute;
+	margin-top:0px;
+	margin-left:20px;
+	}	
+	
+.ppimghover{
+	height:320px;
+	width:220px;
+	position:absolute;
+	border:2px solid #999;
+position:absolute;
+	margin-top:0px;
+	margin-left:20px;
+	margin-top:0px;
+	transition:all ease 1s;}
+.ppimghover:hover{
+	opacity:0;}	
+.buttom{
+	margin:130px;
+	color:#FFF;
+	margin-left:80px;
+	position:absolute;
+	padding:10px;	
+	height:20px;
+	width:80px;
+	background-color:#F93;}			
+
+.brandsbox{
+	margin-top:1050px;
+	position:absolute;
+	height:170px;
+	width:100%;
+	background-color:#F0F0F0;}
+.brandheading{
+	border-bottom:2px solid #FF4066;
+	width:1000px;
+	position:absolute;
+	margin-top:-170px;
+	color:#FF4066;}
+.brandimg1{
+	margin-left:20px;
+	margin-top:-90px;
+	position:absolute;
+	height:100px;
+	width:150px;
+	transition:all ease-in 0.3s;}
+.brandimg1:hover{
+	margin-top:-95px;}	
+.brandimg2{
+	margin-left:250px;
+	margin-top:-71px;
+	position:absolute;
+	height:40px;
+	width:150px;
+	transition:all ease-in 0.3s;}
+.brandimg2:hover{
+	margin-top:-75px;}
+.brandimg3{
+	margin-left:410px;
+	margin-top:-200px;
+	position:absolute;
+	height:300px;
+	width:350px;
+	transition:all ease-in 0.3s;}
+.brandimg3:hover{
+	margin-top:-205px;}
+.brandimg4{
+	margin-left:750px;
+	margin-top:-150px;
+	position:absolute;
+	height:200px;
+	width:200px;
+	transition:all ease-in 0.3s;}
+.brandimg4:hover{
+	margin-top:-155px;}	
+/*Footer Section Start Here*/
+.footer{
+	margin-top:1155px;
+	position:absolute;	
+	height:350px;
+	width:100%;
+	background-color:#000;}	
+.aboutstore{
+	font-size:20px;
+	margin:30px;
+	margin-top:-250px;
+	color:#FF9933;
+	position:absolute;
+	font-family:Tahoma, Geneva, sans-serif;}	
+p{
+	color:#FFF;
+	font-size:15px;
+	margin-top:10px;}	
+.footerlogo{
+	margin-left:700px;
+	position:left;
+	margin-top:-80px;
+	}	
+.finfo{
+	margin-top:-280px;
+	position:absolute;
+	margin-left:310px;}	
+.infodetail{
+	margin-top:-250px;
+	margin-left:310px;
+	font-size:15px;
+	position:absolute;
+	color:#FFF;}	
+.connectwithus{
+	color:#FF9933;
+	margin-top:-280px;
+	position:absolute;
+	margin-left:500px;}	
+.address{
+	margin-top:10px;
+	font-size:15px;
+	color:#FFF;
+	position:absolute;}	
+/*Footer Section End Here*/	
+.follow{
+	margin-top:-280px;
+	margin-left:780px;
+    position:absolute;}
+
+a{
+	color:#FFF;
+	text-decoration:none;}
+.icon1{
+	position:absolute;
+	margin-left:0px;}	
+.icon2{
+	position:absolute;
+	margin-left:50px;}
+.icon3{
+	position:absolute;
+	margin-left:50px;
+	margin-top:60px;}
+
+.icon4{
+	position:absolute;
+	margin-left:0px;
+	margin-top:60px;}				
+</style>
+<script>
+
+$(document).ready(function(){
+    $(".b1").click(function(){
+        $(".des1").show("slow")
+		$(".des2").hide("slow")
+		$(".des3").hide("slow")
+		$(".des4").hide("slow")
+		$(".des5").hide("slow")
+
+    });
+});
+$(document).ready(function(){
+    $(".b2").click(function(){
+        $(".des2").show("slow")
+		$(".des1").hide("slow")
+		$(".des3").hide("slow")
+		$(".des4").hide("slow")
+		$(".des5").hide("slow")
+
+    });
+});
+$(document).ready(function(){
+    $(".b3").click(function(){
+        $(".des3").show("slow")
+		$(".des1").hide("slow")
+		$(".des2").hide("slow")
+		$(".des4").hide("slow")
+		$(".des5").hide("slow")
+
+    });
+});
+$(document).ready(function(){
+    $(".b4").click(function(){
+        $(".des4").show("slow")
+		$(".des1").hide("slow")
+		$(".des2").hide("slow")
+		$(".des3").hide("slow")
+		$(".des5").hide("slow")
+
+	});
+});
+
+
+$(document).ready(function(){
+    $(".b5").click(function(){
+        $(".des5").show("slow")
+		$(".des1").hide("slow")
+		$(".des2").hide("slow")
+		$(".des3").hide("slow")
+		$(".des4").hide("slow")
+
+    });
+});
+
+</script>
+</head>
+
+<body>
+<div class="top"></div>
+
+<footer class="footer">
+</footer>
+
+<div class="main">
+
+<!--This Is main Text OF black head Start Here-->
+<marquee class="toptext" behavior="alternate">
+Welcome To STAR Brand Support +92 23456789
+</marquee>
+<!--This Is main Text OF black head End Here-->
+<header>
+
+<a href="index.html">
+<img src="images/starbrands.png" alt="STAR Brand" height="90px" width="220" />
+</a>  
+
+
+<div class="searchbox"><input type="text" placeholder="Search Entire Store Here...."><img id="searchbuttom" src="images/search.png" height="21" width="25"></div>
+</header>
+
+<nav class="nav">
+
+<ul>		
+
+<li><a href="index.html">HOME</a></li>
+
+<li><a href="gallary.html">GALLARY</a></li>
+<li><a href="products.html">PRODUCTS</a></li>
+<li><a href="About US.html">ABOUT US</a></li>
+<li><a href="contact us.html">CONTACT US</a></li>
+
+</ul>
+</nav>
+<div class="btn">
+<input class="b1" type="button" value="Wheat Products"/>
+<input class="b2" type="button" value="Rice Products"/>
+<input class="b3" type="button" value="Pulses"/>
+<input class="b4" type="button" value="Spices & Condiments"/>
+<input class="b5" type="button" value="Oils"/>
+
+</div>
+
+<section>
+
+
+<a href="Brands/1.html">
+<div class="des1">
+<div class="d1"><img id="d1b" class="wheatproduct1" src="images/flour.jpg" height="320" width="220" />
+<img class="ppimghover" src="images/flour.jpg">
+</div>
+</a>
+
+<a href="Brands/14G.html">
+<div class="d1"><img id="d1b" class="wheatproduct2" src="images/whole wheat.jpg" height="320" width="220" />
+<img class="ppimghover" src="images/whole wheat.jpg">
+</div>
+</a>
+
+<a href="Brands/15G.html">
+<div class="d1"><img id="d1b" class="wheatproduct3" src="images/yarma.jpg" height="320" width="220" />
+<img class="ppimghover" src="images/yarma.jpg">
+</div><br>
+</a>
+
+<a href="Brands/16G.html">
+<div class="d1"><img id="d1b" class="wheatproduct4" src="images/21-4071-12.jpg" height="320" width="220" />
+<img class="ppimghover" src="images/21-4071-12.jpg">
+</div>
+</a>
+
+<a href="Brands/17G.html">
+<div class="d1"><img id="d1b" class="wheatproduct5" src="images/all purpose.jpg" height="320" width="220" />
+<img class="ppimghover" src="images/all purpose.jpg">
+</div>
+</a>
+
+<a href="Brands/18G.html">
+<div class="d1"><img id="d1b" class="wheatproduct6" src="images/white flour.jpg" height="320" width="220" />
+<img class="ppimghover" src="images/white flour.jpg">
+</div>
+</div>
+</a>
+
+
+
+<a href="Brands/31Z.html">
+<div class="des2">
+<div class="d1"><img id="d1b" class="riceproduct1" src="images/Rice and Rice products/21-4161.jpg" height="320" width="220" />
+<img class="ppimghover" src="images/Rice and Rice products/21-4161.jpg">
+</div>
+</a>
+
+<a href="Brands/32Z.html">
+<div class="d1"><img id="d1b" class="riceproduct2" src="images/Rice and Rice products/21-4162.jpg" height="320" width="220" />
+<img class="ppimghover" src="images/Rice and Rice products/21-4162.jpg">
+</div>
+</a>
+
+<a href="Brands/12.html">
+<div class="d1"><img id="d1b" class="riceproduct3" src="images/Rice and Rice products/31-6602.jpg" height="320" width="220" />
+<img class="ppimghover" src="images/Rice and Rice products/31-6602.jpg">
+</div><br>
+</a>
+
+
+<a href="Brands/10.html">
+<div class="d1"><img id="d1b" class="riceproduct4" src="images/Rice and Rice products/31-6604.jpg" height="320" width="220" />
+<img class="ppimghover" src="images/Rice and Rice products/31-6604.jpg">
+</div>
+</a>
+
+<a href="Brands/35Z.html">
+<div class="d1"><img id="d1b" class="riceproduct5" src="images/Rice and Rice products/31-6608.jpg" height="320" width="220" />
+<img class="ppimghover" src="images/Rice and Rice products/31-6608.jpg">
+</div>
+</a>
+
+<a href="Brands/36Z.html">
+<div class="d1"><img id="d1b" class="riceproduct6" src="images/Rice and Rice products/21-4163.jpg" height="320" width="220" />
+<img class="ppimghover" src="images/Rice and Rice products/21-4163.jpg">
+</div>
+</div>
+</a>
+
+
+
+
+<a href="Brands/3.html">
+<div class="des3">
+<div class="d1"><img id="d1b" class="productpulses1" src="images/yellowpulse.jpg" height="320" width="220" />
+<img class="ppimghover" src="images/yellowpulse.jpg">
+</div>
+</a>
+
+<a href="Brands/20A.html">
+<div class="d1"><img id="d1b" class="productpulses2" src="images/green lentils.jpg" height="320" width="220" />
+<img class="ppimghover" src="images/green lentils.jpg">
+</div>
+</a>
+
+<a href="Brands/21A.html">
+<div class="d1"><img id="d1b" class="productpulses3" src="images/masoor.jpg" height="320" width="220" />
+<img class="ppimghover" src="images/masoor.jpg">
+</div><br>
+</a>
+
+
+<a href="Brands/22A.html">
+<div class="d1"><img id="d1b" class="productpulses4" src="images/black eye peas.jpg" height="320" width="220" />
+<img class="ppimghover" src="images/black eye peas.jpg">
+</div>
+</a>
+
+
+<a href="Brands/23A.html">
+<div class="d1"><img id="d1b" class="productpulses5" src="images/toordal.jpg" height="320" width="220" />
+<img class="ppimghover" src="images/toordal.jpg">
+</div>
+</a>
+
+<a href="Brands/24A.html">
+<div class="d1"><img id="d1b" class="productpulses6" src="images/redbeans.jpg" height="320" width="220" />
+<img class="ppimghover" src="images/redbeans.jpg">
+</div>
+</div>
+</a>
+
+
+<a href="Brands/6.html">
+<div class="des4">
+<div class="d1"><img id="d1b" class="product1" src="images/11-1003.jpg" height="320" width="220" />
+<img class="ppimghover" src="images/11-1003.jpg">
+</div>
+</a>
+
+<a href="Brands/5.html">
+<div class="d1"><img id="d1b" class="product2" src="images/11-1030.jpg" height="320" width="220" />
+<img class="ppimghover" src="images/11-1030.jpg">
+</div>
+</a>
+
+
+<a href="Brands/8.html">
+<div class="d1"><img id="d1b" class="product3" src="images/11-1650.jpg" height="320" width="220" />
+<img class="ppimghover" src="images/11-1650.jpg">
+</div><br>
+</a>
+
+<a href="Brands/28U.html">
+<div class="d1"><img id="d1b" class="product4" src="images/8948958658590.jpg" height="320" width="220" />
+<img class="ppimghover" src="images/8948958658590.jpg">
+</div>
+</a>
+
+<a href="Brands/29U.html">
+<div class="d1"><img id="d1b" class="product5" src="images/96586.jpg" height="320" width="220" />
+<img class="ppimghover" src="images/96586.jpg">
+</div>
+</a>
+
+<a href="Brands/30U.html">
+<div class="d1"><img id="d1b" class="product6" src="images/chilli.jpg" height="320" width="220" />
+<img class="ppimghover" src="images/chilli.jpg">
+</div>
+</div>
+</a>
+
+
+
+
+<a href="Brands/37O.html">
+<div class="des5">
+<div class="d1"><img id="d1b" class="riceproduct1" src="images/Cooking Oils/olive oil.jpg" height="320" width="220" />
+<img class="ppimghover" src="images/Cooking Oils/olive oil.jpg">
+</div>
+</a>
+
+<a href="Brands/38O.html">
+<div class="d1"><img id="d1b" class="riceproduct2" src="images/Cooking Oils/Cheap-100-Pure-Refined-Corn-cooking-oil.jpg" height="320" width="220" />
+<img class="ppimghover" src="images/Cooking Oils/Cheap-100-Pure-Refined-Corn-cooking-oil.jpg">
+</div>
+</a>
+
+<a href="Brands/39O.html">
+<div class="d1"><img id="d1b" class="riceproduct3" src="images/Cooking Oils/Simply-Vegetable-Oil.jpg" height="320" width="220" />
+<img class="ppimghover" src="images/Cooking Oils/Simply-Vegetable-Oil.jpg">
+</div><br>
+</a>
+
+
+<a href="Brands/40O.html">
+<div class="d1"><img id="d1b" class="riceproduct4" src="images/Cooking Oils/831730005627_247.jpg" height="320" width="220" />
+<img class="ppimghover" src="images/Cooking Oils/831730005627_247.jpg">
+</div>
+</a>
+
+<a href="Brands/41O.html">
+<div class="d1"><img id="d1b" class="riceproduct5" src="images/Cooking Oils/coconutoil.jpg" height="320" width="220" />
+<img class="ppimghover" src="images/Cooking Oils/coconutoil.jpg">
+</div>
+</a>
+
+<a href="Brands/42O.html">
+<div class="d1"><img id="d1b" class="riceproduct6" src="images/Cooking Oils/ktc-sunflower-oil-5l.jpg" height="320" width="220" />
+<img class="ppimghover" src="images/Cooking Oils/ktc-sunflower-oil-5l.jpg">
+</div>
+</div>
+</a>
+
+
+
+</div>
+
+</section>
+
+
+
+
+
+
+
+
+
+<div class="aboutstore">
+<b>ABOUT STORE</b>
+<p>Star Organic farm is commenced in the<br> year 1988. Company is involved in trading<br>
+  and manufacturing a wide range of <br>Organic Products and spices to the<br> consumers all
+  around the global market.<br>Company has wide variety of collection of <br>products lies of
+Nutritious cereals, Pulses,<br> Spices and Condiments, Cooking Oils,<br> Fruit Pulps,
+  Agro Products, Oils,<br> Wheat and Wheat Flour, Rice and Rice <br>products and so
+  on.</p>
+<img  class="footerlogo"src="images\starbrands.png" height="120" width="250">
+<div class="finfo"><b>INFORMATION</b></div>
+
+<div class="infodetail">
+<a   href="contact us.html">Contact Us</a><br>
+<br>
+<a href="about us.html">About Us</a><br>
+<br>
+<a  href="products.html">Products</a><br>
+<br>
+<a  href="gallary.html">Gallery</a><br>
+<br>
+<a href="index.html">Home</a></div>
+
+<div class="connectwithus
+"><b>Address</b><div class="address">SP-2, 22 Godown Industrial Area,<br>
+Habib Garden, Near Nazimabad Underpass,<br>
+Plot 1E,3/1, Nazimabad #1, Karachi<br>
+info@starbrand.com.pk<br>
+</div></div>
+
+
+<div class="follow"><b>Follow US</b><br>
+<a href="https://www.google.com.pk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwiB4aOLqpLKAhXXjo4KHQP6CL8QFggZMAA&url=https%3A%2F%2Fwww.facebook.com%2FMadamBoutiqueOfficial&usg=AFQjCNH1uodvVCTagBIzerAjb4Nos2XdVw&bvm=bv.110151844,d.c2E"><img  class="icon1" src="images/facebook.png" height="40" width="40"></a> 
+
+<a href="https://www.google.com.pk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwio0pjZqpLKAhWEBo4KHURHADwQFggZMAA&url=https%3A%2F%2Fplus.google.com%2F115987599640936503295%2Fabout&usg=AFQjCNFqrZ_KerUzZUli0kwZYtKAFYjeCA&bvm=bv.110151844,d.c2E"><img class="icon2"s src="images/yahoo.png" height="40" width="40"></a>
+
+<a href="https://www.google.com.pk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwir5bynqpLKAhUWkY4KHbFYB1IQFggZMAA&url=https%3A%2F%2Ftwitter.com%2Fmadam_boutique&usg=AFQjCNHAWfikmaKxb0B4iEF84lr10qljGw&bvm=bv.110151844,d.c2E"><img  class="icon3" src="images/Twitter.png" height="40" width="40"> </a> 
+
+
+<a href="https://www.google.com.pk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=0ahUKEwjsgOTAqpLKAhVGC44KHVBfDjwQFggbMAE&url=https%3A%2F%2Fwww.pinterest.com%2Fmadamsboutique%2F&usg=AFQjCNG-xdsmaovWamijyWTLRYRBj5gjsA&bvm=bv.110151844,d.c2E"><img class="icon4" src="images/Pinterest.png" height="40" width="40"></a>
+</div>
+
+
+
+
+
+</div>
+
+</body>
+</html>

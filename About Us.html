@@ -1,0 +1,393 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>About US</title>
+</head>
+
+<link rel="icon" href="images/fevicon copy.png" type="image/x-icon"/>
+<link rel="shortcut icon" href="images/fevicon.jpg" type="image/x-icon"/>
+
+<script src="JS.js">
+</script>
+
+
+<style>
+*{
+	margin:auto;
+	}
+
+
+.main{
+	height:1300px;
+	width:1000px;
+/*    border:1px solid;
+*/	margin-top:3px;	
+	}
+	 
+
+header{
+	height:120px;
+	width:1000px;
+	/*border:1px solid;*/
+	}	
+
+
+img{
+	margin-top:10px;
+	}
+	
+
+.top{
+	width:100%;
+	height:34px;
+	margin:auto;
+	background-color:#1C0000;
+	margin-top:20px;
+	}
+	
+
+.toptext{
+	font-family:Verdana, Geneva, sans-serif;
+	color:#CCC;
+	padding:9px;
+	position:absolute;
+	margin-left:0px;
+	font-size:14px;
+	margin-top:-37px;}	
+	
+
+.nav{
+	border-bottom:1px solid #D8D8D6;
+	border-top:1px solid #D8D8D6;
+	}
+.nav ul{
+	margin:0;
+	padding:0;
+	list-style:none;}
+.nav ul li{
+	display:inline-block;}
+.nav ul li a{
+	border-right:1px solid #D8D8D6;
+	font-size:13px;
+	display:block;
+	padding:15px;
+	text-decoration:none;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#3F3F3F;
+	line-height:20px;
+	}				
+nav ul li a:hover{
+	color:#F93;}		
+.searchbox{
+	height:30px;
+	width:220px;
+/*	border:1px solid #000;*/
+	margin-top:-55px;
+	margin-right:0px;}
+
+
+#searchbuttom{
+	position:absolute;
+	margin-top:0px;
+	margin-left:13px;}	
+	
+.aboutusbox{
+	margin-top:10px;
+	height:600px;
+	width:1000px;
+/*	border:1px solid #000;*/}
+.aboutusheading{
+	background-color:#F9F9F9;
+	color:#FF9933;
+	padding:30px;
+	font-size:29px;
+	height:10px;
+	width:945px;
+    border-bottom:2px solid #FF9933;
+	font-family:Arial, Helvetica, sans-serif;
+}		
+.p{
+	width:1000px;
+	margin-top:20px;
+	position:absolute;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#666;
+	font-size:14px;}
+.OUREXPERTIES{
+	margin-top:220px;
+	position:absolute;
+	font-size:25px;
+	color:#FF9933;
+	font-family:Arial, Helvetica, sans-serif;
+}	
+.imgs{
+	margin-left:470px;
+	margin-top:140px;
+	position:absolute;}
+.doc{
+	color:#666;
+	font-size:15px;
+	width:450px;
+	position:absolute;
+	margin-top:270px;}	
+/*.brandsbox{
+	margin-top:950px;
+	position:absolute;
+	height:170px;
+	width:100%;
+	background-color:#F0F0F0;}*/
+
+.brandheading{
+	border-bottom:2px solid #FF4066;
+	width:1000px;
+	position:absolute;
+	margin-top:120px;
+	color:#FF4066;}
+.brandimg1{
+	margin-left:20px;
+	margin-top:198px;
+	position:absolute;
+	height:100px;
+	width:150px;
+	transition:all ease-in 0.3s;}
+.brandimg1:hover{
+	margin-top:202px;}	
+.brandimg2{
+	margin-left:250px;
+	margin-top:220px;
+	position:absolute;
+	height:40px;
+	width:150px;
+	transition:all ease-in 0.3s;}
+.brandimg2:hover{
+	margin-top:223px;}
+.brandimg3{
+	margin-left:410px;
+	margin-top:90px;
+	position:absolute;
+	height:300px;
+	width:350px;
+	transition:all ease-in 0.3s;}
+.brandimg3:hover{
+	margin-top:95px;}
+.brandimg4{
+	margin-left:750px;
+	margin-top:145px;
+	position:absolute;
+	height:200px;
+	width:200px;
+	transition:all ease-in 0.3s;}
+.brandimg4:hover{
+	margin-top:150px;}	
+/*Footer Section Start Here*/
+.footer{
+	margin-top:1005px;
+	position:absolute;	
+	height:350px;
+	width:100%;
+	background-color:#000;}	
+.aboutstore{
+	font-size:20px;
+	margin:30px;
+	margin-top:250px;
+	color:#FF9933;
+	position:absolute;
+	font-family:Tahoma, Geneva, sans-serif;}	
+p{
+	color:#FFF;
+	font-size:15px;
+	margin-top:10px;}	
+.footerlogo{
+	margin-left:700px;
+	position:left;
+	margin-top:-80px;
+	}	
+.finfo{
+	margin-top:-280px;
+	position:absolute;
+	margin-left:310px;}	
+.infodetail{
+	margin-top:-250px;
+	margin-left:310px;
+	font-size:15px;
+	position:absolute;
+	color:#FFF;}	
+.connectwithus{
+	color:#FF9933;
+	margin-top:-280px;
+	position:absolute;
+	margin-left:500px;}	
+.address{
+	margin-top:10px;
+	font-size:15px;
+	color:#FFF;
+	position:absolute;}	
+/*Footer Section End Here*/	
+.follow{
+	margin-top:-280px;
+	margin-left:780px;
+    position:absolute;}
+
+a{
+	color:#FFF;
+	text-decoration:none;}
+.icon1{
+	position:absolute;
+	margin-left:0px;}	
+.icon2{
+	position:absolute;
+	margin-left:50px;}
+.icon3{
+	position:absolute;
+	margin-left:50px;
+	margin-top:60px;}
+
+.icon4{
+	position:absolute;
+	margin-left:0px;
+	margin-top:60px;}						
+</style>
+
+<body>
+
+<div class="top"></div>
+<div class="brandsbox"></div>
+
+<footer class="footer">
+</footer>
+
+ <div class="main">
+
+<!--This Is main Text OF black head Start Here-->
+<marquee class="toptext" behavior="alternate">
+Welcome To STAR Brand Support +92 23456789
+</marquee>
+<!--This Is main Text OF black head End Here-->
+<header> 
+
+<a href="index.html">
+<img src="images/starbrands.png" height="90px" width="220" />
+</a>  
+
+<div class="searchbox"><input type="text" placeholder="Search Entire Store Here...."><img id="searchbuttom" src="images/search.png" height="21" width="25"></div>
+</header>
+
+<nav class="nav">
+
+<ul>		
+
+<li><a href="index.html">HOME</a></li>
+<li><a href="gallary.html">GALLARY</a></li>
+<li><a href="products.html">PRODUCTS</a></li>
+<li><a href="About US.html">ABOUT US</a></li>
+<li><a href="contact us.html">CONTACT US</a></li>
+
+</ul>
+</nav>
+
+<section class="aboutusbox">
+<div class="aboutusheading"><b>About Us</b></div>
+
+<div class="p"><i>We at Starbrands aspire to give your shopping crave a thorough satisfaction without being too harsh on your wallet. Rest assured about the quality and price of the product you order. It will be worth every penny you pay. We are trying to stand out of the crowd of online shopping websites in Pakistan, by ensuring quality products at affordable prices and swift deliveries.<br><br><br>
+		To give you the best rates, we do not offer free shipping. Don’t be fooled by the free delivery phrase and craze currently popular in Pakistan. Instead of paying delivery charges on every item (which all free delivery claiming websites do), pay only the actual delivery charges. This model is used and trusted by customers all over the world.<br><br><br>
+		So give us a chance, and we would try our very best to make your shopping experience such that you come back for more.</i></div>
+
+		<div class="OUREXPERTIES"><b>OUR EXPERTIES</b></div>
+
+<div class="doc">
+<b>Best Quality</b><br>
+<br>
+Helloper nibh lacus, et euismod ex pretium nec. Nam sit amet convallis odio, luctus fermentum arcu. Fusce sed ante felis. Sed
+<br>
+<br>
+<b>Fastest Delivery</b>
+<br>
+<br>
+Geller dignissim nibh lacus, et euismod ex pretium nec. Nam sit amet convallis odio, luctus fermentum arcu. Fusce sed ante
+<br>
+<br>
+<b>Customer Care</b>
+<br>
+Customer fully support dignissim nibh lacus, et euismod ex pretium nec. Nam sit amet convallis odio, luctus fermentum
+<br>
+<br>
+<b>Over 2000 Satisfied Customers</b>
+<br>
+<br>
+Morbi dignissim nibh lacus, et euismod ex pretium nec. Nam sit amet convallis odio, luctus fermentum arcu. Fusce sed ante
+</div>
+
+<!--<img  class="imgs"src="images/file.jpeg">-->
+
+</section>
+
+
+<!--<div class="brandheading" align="center"><h2>BRANDS HERE</h2></div>
+<img class="brandimg1"src="images/ourbrands1.png">
+<img class="brandimg2"src="images/ourbrands3.png">
+<img class="brandimg3"src="images/ourbrands2.png">
+<img class="brandimg4"src="images/ourbrands4.png">-->
+
+
+
+
+
+<div class="aboutstore">
+<b>ABOUT STORE</b>
+<p>Star Organic farm is commenced in the<br> year 1988. Company is involved in trading<br>
+  and manufacturing a wide range of <br>Organic Products and spices to the<br> consumers all
+  around the global market.<br>Company has wide variety of collection of <br>products lies of
+Nutritious cereals, Pulses,<br> Spices and Condiments, Cooking Oils,<br> Fruit Pulps,
+  Agro Products, Oils,<br> Wheat and Wheat Flour, Rice and Rice <br>products and so
+  on.</p>
+<img  class="footerlogo"src="images\starbrands.png" height="120" width="250">
+<div class="finfo"><b>INFORMATION</b></div>
+
+<div class="infodetail">
+<br>
+<a href="../contact us.html">Contact Us</a><br>
+<br>
+
+<a   href="../about us.html">About Us</a><br>
+<br>
+
+<a  href="../products.html">Products</a><br>
+<br>
+
+<a  href="../gallery.html">Gallery</a><br>
+<br>
+
+<a href="../index.html">Home</a></div>
+
+<div class="connectwithus
+"><b>Address</b><div class="address">SP-2, 22 Godown Industrial Area,<br>
+Habib Garden, Near Nazimabad Underpass,<br>
+Plot 1E,3/1, Nazimabad #1, Karachi<br>
+info@starbrand.com.pk<br>
+</div></div>
+
+
+<div class="follow"><b>Follow US</b><br>
+<a href="https://www.facebook.com"><img  class="icon1" src="images/facebook.png" height="40" width="40"></a> 
+
+<a href="https://www.yahoo.com"><img class="icon2"s src="images/yahoo.png" height="40" width="40"></a>
+
+<a href="https://www.twitter.com"><img  class="icon3" src="images/Twitter.png" height="40" width="40"> </a> 
+
+
+<a href="https://www.pinterest.com"><img class="icon4" src="images/Pinterest.png" height="40" width="40"></a>
+
+
+</div>
+<!--Footer Work Section End Here-->
+
+
+
+
+
+</div>
+<!--Main Div Close Here all website wrap here-->
+
+</body>
+</html>

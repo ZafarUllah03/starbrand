@@ -1,0 +1,394 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Contact us</title>
+</head>
+
+<link rel="icon" href="images/fevicon copy.png" type="image/x-icon"/>
+<link rel="shortcut icon" href="images/fevicon.jpg" type="image/x-icon"/>
+
+<script src="JS.js">
+</script>
+
+<script src="http://maps.googleapis.com/maps/api/js"></script>
+
+<script>
+function initialize() {
+  var mapProp = {
+    center:new google.maps.LatLng(24.8941108,66.992844),
+    zoom:10,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"), mapProp);
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+
+
+<style>
+*{
+	margin:auto;
+	}
+
+
+.main{
+	height:1200px;
+	width:1000px;
+/*    border:1px solid;
+*/	margin-top:3px;	
+	}
+	 
+
+header{
+	height:120px;
+	width:1000px;
+	/*border:1px solid;*/
+	}	
+
+
+img{
+	margin-top:10px;
+	}
+	
+
+.top{
+	width:100%;
+	height:34px;
+	margin:auto;
+	background-color:#1C0000;
+	margin-top:20px;
+	}
+	
+.toptext{
+	font-family:Verdana, Geneva, sans-serif;
+	color:#CCC;
+	padding:9px;
+	position:absolute;
+	margin-left:0px;
+	font-size:14px;
+	margin-top:-37px;}	
+	
+
+.nav{
+	border-bottom:1px solid #D8D8D6;
+	border-top:1px solid #D8D8D6;
+	}
+.nav ul{
+	margin:0;
+	padding:0;
+	list-style:none;}
+.nav ul li{
+	display:inline-block;}
+.nav ul li a{
+	border-right:1px solid #D8D8D6;
+	font-size:13px;
+	display:block;
+	padding:15px;
+	text-decoration:none;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#3F3F3F;
+	line-height:20px;
+	}				
+nav ul li a:hover{
+	color:#F93;}		
+.searchbox{
+	height:30px;
+	width:220px;
+/*	border:1px solid #000;*/
+	margin-top:-55px;
+	margin-right:0px;}
+
+
+#searchbuttom{
+	position:absolute;
+	margin-top:0px;
+	margin-left:13px;}	
+	
+.contactusbox{
+	margin-top:10px;
+	height:500px;
+	width:1000px;
+/*	border:1px solid #000;*/}
+.box{
+	position:absolute;
+	height:500px;
+	width:1000px;
+	background-color:#F9F9F9;}		
+.work{
+	margin-left:20px;
+	margin-top:60px;
+	height:350px;
+	width:600px;
+/*	border:1px solid;*/}
+.textfeild{
+	margin-top:20px;
+	height:30px;
+	width:450px;}	
+.messagetextfeild{
+	margin-top:20px;
+	height:180px;
+	width:450px;}	
+.btn{
+	font-family:Verdana, Geneva, sans-serif;
+	color:rgba(255, 255, 255, 0.93);
+	margin-top:20px;
+	height:30px;
+	width:100px;
+	background-color: #FF9933;
+	border:none;}	
+.h1{
+	margin-top:20px;
+	margin-left:20px;
+	position:absolute;
+	font-size:23px;
+	font-family:"Arial Black", Gadget, sans-serif;
+	color:#FF9933;}
+.map{
+	width:450px;
+	height:360px;
+	position:absolute;
+	margin-top:-360px;
+	margin-left:400px;}		
+/*.brandsbox{
+	margin-top:750px;
+	position:absolute;
+	height:170px;
+	width:100%;
+	background-color:#F0F0F0;}*/
+
+.brandheading{
+	border-bottom:2px solid #FF4066;
+	width:1000px;
+	position:absolute;
+	margin-top:25px;
+	color:#FF4066;}
+.brandimg1{
+	margin-left:20px;
+	margin-top:100px;
+	position:absolute;
+	height:100px;
+	width:150px;
+	transition:all ease-in 0.3s;}
+.brandimg1:hover{
+	margin-top:105px;}	
+.brandimg2{
+	margin-left:250px;
+	margin-top:125px;
+	position:absolute;
+	height:40px;
+	width:150px;
+	transition:all ease-in 0.3s;}
+.brandimg2:hover{
+	margin-top:120px;}
+.brandimg3{
+	margin-left:410px;
+	margin-top:-2px;
+	position:absolute;
+	height:300px;
+	width:350px;
+	transition:all ease-in 0.3s;}
+.brandimg3:hover{
+	margin-top:-5px;}
+.brandimg4{
+	margin-left:750px;
+	margin-top:50px;
+	position:absolute;
+	height:200px;
+	width:200px;
+	transition:all ease-in 0.3s;}
+.brandimg4:hover{
+	margin-top:55px;}	
+/*Footer Section Start Here*/
+.footer{
+	margin-top:900px;
+	position:absolute;	
+	height:350px;
+	width:100%;
+	background-color:#000;}	
+.aboutstore{
+	font-size:20px;
+	margin:30px;
+	margin-top:250px;
+	color:#FF9933;
+	position:absolute;
+	font-family:Tahoma, Geneva, sans-serif;}	
+p{
+	color:#FFF;
+	font-size:15px;
+	margin-top:10px;}	
+.footerlogo{
+	margin-left:700px;
+	position:left;
+	margin-top:-80px;
+	}	
+.finfo{
+	margin-top:-280px;
+	position:absolute;
+	margin-left:310px;}	
+.infodetail{
+	margin-top:-250px;
+	margin-left:310px;
+	font-size:15px;
+	position:absolute;
+	color:#FFF;}	
+.connectwithus{
+	color:#FF9933;
+	margin-top:-280px;
+	position:absolute;
+	margin-left:500px;}	
+.address{
+	margin-top:10px;
+	font-size:15px;
+	color:#FFF;
+	position:absolute;}	
+/*Footer Section End Here*/	
+.follow{
+	margin-top:-280px;
+	margin-left:780px;
+    position:absolute;}
+
+a{
+	color:#FFF;
+	text-decoration:none;}
+.icon1{
+	position:absolute;
+	margin-left:0px;}	
+.icon2{
+	position:absolute;
+	margin-left:50px;}
+.icon3{
+	position:absolute;
+	margin-left:50px;
+	margin-top:60px;}
+
+.icon4{
+	position:absolute;
+	margin-left:0px;
+	margin-top:60px;}					
+#googleMap{
+	position:absolute;
+	margin-top:-415px;
+	margin-left:480px;}		
+</style>
+
+<body>
+
+<div class="top"></div>
+<div class="brandsbox"></div>
+
+<footer class="footer">
+</footer>
+
+ <div class="main">
+
+<!--This Is main Text OF black head Start Here-->
+<marquee class="toptext" behavior="alternate">
+Welcome To STAR Brand Support +92 23456789
+</marquee>
+<!--This Is main Text OF black head End Here-->
+<header> 
+
+<a href="index.html">
+<img src="images/starbrands.png" height="90px" width="220" />
+</a>  
+
+
+<div class="searchbox"><input type="text" placeholder="Search Entire Store Here...."><img id="searchbuttom" src="images/search.png" height="21" width="25"></div>
+</header>
+
+<nav class="nav">
+
+<ul>		
+
+<li><a href="index.html">HOME</a></li>
+<li><a href="gallary.html">GALLARY</a></li>
+<li><a href="products.html">PRODUCTS</a></li>
+<li><a href="About US.html">ABOUT US</a></li>
+<li><a href="contact us.html">CONTACT US</a></li>
+
+</ul>
+</nav>
+
+<section class="contactusbox">
+
+<div class="box">
+<div class="h1">CONTACT US</div>
+
+<div class="work">
+<input class="textfeild" type="text" placeholder="Enter Yout Name"><br>
+<input class="textfeild" type="text" placeholder="Enter Yout Last Name"><br>
+<input class="textfeild" type="text" placeholder="Enter Yout Email"><br>
+<input class="messagetextfeild" type="text" placeholder="Enter Yout Message"><br>
+<input class="btn" type="button" value="SUBMIT">		
+
+
+<div id="googleMap" style="width:468px;height:360px;"></div>
+
+
+
+</section>
+
+
+<!--<div class="brandheading" align="center"><h2>BRANDS HERE</h2></div>
+<img class="brandimg1"src="images/ourbrands1.png">
+<img class="brandimg2"src="images/ourbrands3.png">
+<img class="brandimg3"src="images/ourbrands2.png">
+<img class="brandimg4"src="images/ourbrands4.png">-->
+
+
+
+
+
+
+<div class="aboutstore">
+<b>ABOUT STORE</b>
+<p>Star Organic farm is commenced in the<br> year 1988. Company is involved in trading<br>
+  and manufacturing a wide range of <br>Organic Products and spices to the<br> consumers all
+  around the global market.<br>Company has wide variety of collection of <br>products lies of
+Nutritious cereals, Pulses,<br> Spices and Condiments, Cooking Oils,<br> Fruit Pulps,
+  Agro Products, Oils,<br> Wheat and Wheat Flour, Rice and Rice <br>products and so
+  on.</p>
+<img  class="footerlogo"src="images\starbrands.png" height="120" width="250">
+<div class="finfo"><b>INFORMATION</b></div>
+
+<div class="infodetail">
+<a   href="../contact us.html">Contact Us</a><br>
+<br>
+<a href="../about us.html">About Us</a><br>
+<br>
+<a  href="../products.html">Products</a><br>
+<br>
+<a  href="../gallary.html">Gallery</a><br>
+<br>
+<a href="../index.html">Home</a></div>
+
+<div class="connectwithus
+"><b>Address</b><div class="address">SP-2, 22 Godown Industrial Area,<br>
+Habib Garden, Near Nazimabad Underpass,<br>
+Plot 1E,3/1, Nazimabad #1, Karachi<br>
+info@starbrand.com.pk<br>
+</div></div>
+
+
+<div class="follow"><b>Follow US</b><br>
+<a href="https://www.facebook.com"><img  class="icon1" src="images/facebook.png" height="40" width="40"></a> 
+
+<a href="https://www.yahoo.com"><img class="icon2"s src="images/yahoo.png" height="40" width="40"></a>
+
+<a href="https://www.twitter.com"><img  class="icon3" src="images/Twitter.png" height="40" width="40"> </a> 
+
+
+<a href="https://www.pinterest.com"><img class="icon4" src="images/Pinterest.png" height="40" width="40"></a>
+</div>
+<!--Footer Work Section End Here-->
+
+
+
+
+
+</div>
+<!--Main Div Close Here all website wrap here-->
+
+</body>
+</html>

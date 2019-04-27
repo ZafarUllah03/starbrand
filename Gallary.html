@@ -1,0 +1,475 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<title>Gallery</title>
+</head>
+
+
+<link rel="icon" href="images/fevicon copy.png" type="image/x-icon"/>
+<link rel="shortcut icon" href="images/fevicon.jpg" type="image/x-icon"/>
+
+<script src="JS.js">
+</script>
+
+<!--fevicon Code Start Here-->
+
+<link rel="icon" href="images/fevicon.jpg" type="image/x-icon"/>
+<link rel="shortcut icon" href="images/fevicon.jpg" type="image/x-icon"/>
+
+<!--fevicon Code End Here-->
+
+<style>
+*{
+	margin:auto;
+	}
+
+
+.main{
+	height:950px;
+	width:1000px;
+/*    border:1px solid;
+*/	margin-top:3px;	
+	}
+	 
+
+header{
+	height:120px;
+	width:1000px;
+	/*border:1px solid;*/
+	}	
+
+
+img{
+	margin-top:10px;
+	}
+	
+
+.top{
+	width:100%;
+	height:34px;
+	margin:auto;
+	background-color:#1C0000;
+	margin-top:20px;
+	}
+	
+
+.toptext{
+	font-family:Verdana, Geneva, sans-serif;
+	color:#CCC;
+	padding:9px;
+	position:absolute;
+	margin-left:0px;
+	font-size:14px;
+	margin-top:-37px;}	
+
+.nav{
+	border-bottom:1px solid #D8D8D6;
+	border-top:1px solid #D8D8D6;
+	}
+.nav ul{
+	margin:0;
+	padding:0;
+	list-style:none;}
+.nav ul li{
+	display:inline-block;}
+.nav ul li a{
+	border-right:1px solid #D8D8D6;
+	font-size:13px;
+	display:block;
+	padding:15px;
+	text-decoration:none;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#3F3F3F;
+	line-height:20px;
+	}				
+nav ul li a:hover{
+	color:#F93;}		
+	
+.searchbox{
+	height:30px;
+	width:220px;
+/*	border:1px solid #000;*/
+	margin-top:-55px;
+	margin-right:0px;}
+
+
+#searchbuttom{
+	position:absolute;
+	margin-top:0px;
+	margin-left:13px;}
+.topbrands{
+	color:#F93;
+	padding:30px;
+	text-align:center;
+	font-size:27px;
+	height:10px;
+	width:945px;
+    border-bottom:2px solid #F93;
+		font-family:Arial, Helvetica, sans-serif;
+}		
+.popularpostwomen1{
+	margin-top:30px;
+	height:300px;
+	width:1000px;}
+
+.popularpostwomen{
+	margin-top:35px;
+	height:620px;
+	width:1000px;
+	/*border:1px solid #000;*/}	
+
+
+.popularpost1{
+	height:280px;
+	width:250px;
+	position:absolute;
+	margin-left:0px;
+	margin-top:10px;}
+.ppimghover{
+	position:absolute;
+	border:2px solid #999;
+	height:225px;
+	width:215px;
+	margin-top:0px;
+	transition:all ease 1s;}
+.ppimghover:hover{
+	opacity:0;}	
+.buttom{
+	color:#FFF;
+	margin-left:50px;
+	margin-top:80px;
+	position:absolute;
+	padding:10px;	
+	height:20px;
+	width:80px;
+	background-color:#C60063;}	
+	
+.popularpost2{
+	height:280px;
+	width:250px;
+	position:absolute;
+	margin-left:260px;
+	margin-top:10px;}
+
+
+.popularpost3{
+	height:280px;
+	width:250px;
+	position:absolute;
+	margin-left:520px;
+	margin-top:10px;}	
+
+
+.popularpost4{
+	height:280px;
+	width:250px;
+	position:absolute;
+	margin-left:780px;
+	margin-top:10px;}	
+
+
+.popularpost5{
+	height:280px;
+	width:250px;
+	position:absolute;
+	margin-left:780px;
+	margin-top:350px;}	
+
+
+.popularpost6{
+	height:280px;
+	width:250px;
+	position:absolute;
+	margin-left:520px;
+	margin-top:350px;}
+
+
+.popularpost7{
+	height:280px;
+	width:250px;
+	position:absolute;
+	margin-left:260px;
+	margin-top:350px;}		
+
+
+.popularpost8{
+	height:280px;
+	width:250px;
+	position:absolute;
+	margin-left:0px;
+	margin-top:350px;}			
+
+
+.ppimg{
+	opacity:0.2;
+	position:absolute;
+	border:2px solid #999;
+	height:225px;
+	width:215px;
+	margin-top:0px;}		
+
+
+.ppimgname{
+	position:absolute;
+	margin-top:229px;
+	border:2px solid #999;
+	height:17px;
+	width:203px;
+	background-color:#F93;
+	color:#FFF;
+	padding:6px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;}		
+.footer{
+	margin-top:1450px;
+	position:absolute;	
+	height:400px;
+	width:103%;
+	background-color:#000;}	
+.aboutstore{
+	font-size:20px;
+	margin:30px;
+	margin-top:290px;
+	color:#FF9933;
+	position:absolute;
+	font-family:Tahoma, Geneva, sans-serif;}	
+p{
+	color:#FFF;
+	font-size:15px;
+	margin-top:10px;}	
+.footerlogo{
+	margin-left:700px;
+	position:left;
+	margin-top:-80px;
+	}	
+.finfo{
+	margin-top:-280px;
+	position:absolute;
+	margin-left:310px;}	
+.infodetail{
+	margin-top:-250px;
+	margin-left:310px;
+	font-size:15px;
+	position:absolute;
+	color:#FFF;}	
+.connectwithus{
+	color:#FF9933;
+	margin-top:-280px;
+	position:absolute;
+	margin-left:500px;}	
+.address{
+	margin-top:10px;
+	font-size:15px;
+	color:#FFF;
+	position:absolute;}	
+/*Footer Section End Here*/	
+.follow{
+	margin-top:-280px;
+	margin-left:780px;
+    position:absolute;}
+
+a{
+	color:#FFF;
+	text-decoration:none;}
+.icon1{
+	position:absolute;
+	margin-left:0px;}	
+.icon2{
+	position:absolute;
+	margin-left:50px;}
+.icon3{
+	position:absolute;
+	margin-left:50px;
+	margin-top:60px;}
+
+.icon4{
+	position:absolute;
+	margin-left:0px;
+	margin-top:60px;}						
+</style>
+
+<body>
+<footer class="footer">
+</footer>
+<div class="top"></div>
+<div class="brandsbox"></div>
+
+
+<div class="main">
+
+<!--This Is main Text OF black head Start Here-->
+<marquee class="toptext" behavior="alternate">
+Welcome To STAR Brand Support +92 23456789
+</marquee>
+<!--This Is main Text OF black head End Here-->
+<header> 
+
+<a href="index.html">
+<img src="images/starbrands.png" height="90px" width="220" />
+</a>  
+
+
+<div class="searchbox"><input type="text" placeholder="Search Entire Store Here...."><img id="searchbuttom" src="images/search.png" height="21" width="25"></div>
+</header>
+
+<nav class="nav">
+
+<ul>		
+
+<li><a href="index.html">HOME</a></li>
+
+<li><a href="gallary.html">GALLARY</a></li>
+<li><a href="products.html">PRODUCTS</a></li>
+<li><a href="About US.html">ABOUT US</a></li>
+<li><a href="contact us.html">CONTACT US</a></li>
+
+</ul>
+</nav>
+
+<div class="topbrands">Top Brands</div>
+
+<section class="popularpostwomen1">
+<a href="Brands/9.html">
+<div class="popularpost1"><img class="ppimg" src="images/18-3008.jpg">
+<img class="ppimghover" src="images/18-3008.jpg">
+<div class="ppimgname">Garlic Pickles </div>
+</div>
+</a>
+
+<a href="Brands/10.html">
+<div class="popularpost2"><img class="ppimg" src="">
+<img class="ppimghover" src="images/Rice and Rice products/31-6604.jpg">
+<div class="ppimgname">Basmati Rice With Cherry</div>
+</div>
+</a>
+
+<a href="Brands/11.html">
+<div class="popularpost3"><img class="ppimg" src="images/17-2970.jpg">
+<img class="ppimghover" src="images/17-2970.jpg"><div class="ppimgname">Rice Flour</div>
+</div>
+</a>
+
+<a href="Brands/12.html">
+<div class="popularpost4"><img class="ppimg" src="images/Rice and Rice products/31-6602.jpg">
+<img class="ppimghover" src="images/Rice and Rice products/31-6602.jpg">
+<div class="ppimgname">Basmati Rice With Beans </div>
+</div>
+</a>
+
+</section>
+
+
+<section class="popularpostwomen">
+
+<a href="Brands/1.html">
+<div class="popularpost1"><img class="ppimg" src="images/flour.jpg">
+<img class="ppimghover" src="images/flour.jpg">
+<div class="ppimgname">Whole Wheat Flour</div>
+</div>
+</a>
+
+<a href="Brands/2.html">
+<div class="popularpost2"><img class="ppimg" src="images/Cooking Oils/olive oil.jpg">
+<img class="ppimghover" src="images/Cooking Oils/olive oil.jpg">
+<div class="ppimgname">Extra Virgin Olive Oil</div>
+</div>
+</a>
+
+<a href="Brands/3.html">
+<div class="popularpost3"><img class="ppimg" src="images/yellowpulse.jpg">
+<img class="ppimghover" src="images/yellowpulse.jpg">
+<div class="ppimgname">Split Yewllow Lentils</div>
+</div>
+</a>
+
+<a href="Brands/4.html">
+<div class="popularpost4"><img class="ppimg" src="images/Nutritious cereals/cornflakes.jpg">
+<img class="ppimghover" src="images/Nutritious cereals/cornflakes.jpg">
+<div class="ppimgname">Star Brand Corn Flakes</div>
+</div>
+</a>
+
+<a href="Brands/7.html">
+<div class="popularpost5"><img class="ppimg" src="images/Rice and Rice products/basmati.jpg">
+<img class="ppimghover" src="images/Rice and Rice products/basmati.jpg">
+<div class="ppimgname">Pure Basmati Rice </div>
+</div>
+</a>
+
+<a href="Brands/8.html">
+<div class="popularpost6"><img class="ppimg" src="images/11-1650.jpg">
+<img class="ppimghover" src="images/11-1650.jpg">
+<div class="ppimgname">Provence Herbs</div>
+</div>
+</a>
+
+<a href="Brands/6.html">
+<div class="popularpost7"><img class="ppimg" src="images/11-1003.jpg">
+<img class="ppimghover" src="images/11-1003.jpg">
+<div class="ppimgname">Silk Fabrics Bead Vest Dress</div>
+</div>
+</a>
+
+<a href="Brands/5.html">
+<div class="popularpost8"><img class="ppimg" src="images/11-1030.jpg">
+<img class="ppimghover" src="images/11-1030.jpg">
+<div class="ppimgname">Cardamom</div>
+</div>
+</a>
+
+
+
+
+</section>
+
+<!--<img class="brandimg1"src="images/ourbrands1.png">
+<img class="brandimg2"src="images/ourbrands3.png">
+<img class="brandimg3"src="images/ourbrands2.png">
+<img class="brandimg4"src="images/ourbrands4.png">-->
+<div class="aboutstore">
+<b>ABOUT STORE</b>
+<p>Star Organic farm is commenced in the<br> year 1988. Company is involved in trading<br>
+  and manufacturing a wide range of <br>Organic Products and spices to the<br> consumers all
+  around the global market.<br>Company has wide variety of collection of <br>products lies of
+Nutritious cereals, Pulses,<br> Spices and Condiments, Cooking Oils,<br> Fruit Pulps,
+  Agro Products, Oils,<br> Wheat and Wheat Flour, Rice and Rice <br>products and so
+  on.</p>
+<img  class="footerlogo"src="images\starbrands.png" height="120" width="250">
+<div class="finfo"><b>INFORMATION</b></div>
+
+<div class="infodetail">
+<a   href="contact us.html">Contact Us</a><br>
+<br>
+<a href="about us.html">About Us</a><br>
+<br>
+<a  href="products.html">Products</a><br>
+<br>
+<a  href="gallary.html">Gallery</a><br>
+<br>
+<a href="index.html">Home</a></div>
+
+<div class="connectwithus
+"><b>Address</b><div class="address">SP-2, 22 Godown Industrial Area,<br>
+Habib Garden, Near Nazimabad Underpass,<br>
+Plot 1E,3/1, Nazimabad #1, Karachi<br>
+info@starbrand.com.pk<br>
+</div></div>
+
+
+<div class="follow"><b>Follow US</b><br>
+
+<a href=<a href="https://www.facebook.com"><img  class="icon1" src="images/facebook.png" height="40" width="40"></a> 
+
+<a href="https://www.yahoo.com"><img class="icon2"s src="images/yahoo.png" height="40" width="40"></a>
+
+<a href="https://www.twitter.com"><img  class="icon3" src="images/Twitter.png" height="40" width="40"> </a> 
+
+
+<a href="https://www.pinterest.com"><img class="icon4" src="images/Pinterest.png" height="40" width="40"></a>
+</div>
+<!--Footer Work Section End Here-->
+</div>
+</body>
+</html>

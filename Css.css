@@ -1,0 +1,368 @@
+*{
+	margin:auto;
+	}
+
+
+/*Main Div Start Here*/
+.main{
+	height:2500px;
+	width:1000px;
+/*    border:1px solid;
+*/	margin-top:3px;	
+	}
+/*Main Div End Here*/	
+	 
+
+/*Header Start Here*/
+header{
+	height:120px;
+	width:1000px;
+	/*border:1px solid;*/
+	}	
+
+
+img{
+	margin-top:10px;
+	}
+	
+
+.top{
+	width:100%;
+	height:34px;
+	margin:auto;
+	background-color:#1C0000;
+	margin-top:20px;
+	}
+	
+
+.toptext{
+	font-family:Verdana, Geneva, sans-serif;
+	color:#FFF;
+	padding:9px;
+	position:absolute;
+	margin-left:0px;
+	font-size:14px;
+	margin-top:-37px;}	
+
+
+.searchbox{
+	height:30px;
+	width:220px;
+/*	border:1px solid #000;*/
+	margin-top:-55px;
+	margin-right:0px;}
+
+
+#searchbuttom{
+	position:absolute;
+	margin-top:0px;
+	margin-left:13px;}	
+	
+/*Header End Here*/
+
+/*Navigation Bar Start Here*/
+.nav{
+	border-bottom:1px solid #D8D8D6;
+	border-top:1px solid #D8D8D6;
+	}
+.nav ul{
+	margin:0;
+	padding:0;
+	list-style:none;}
+.nav ul li{
+	display:inline-block;}
+.nav ul li a{
+	border-right:1px solid #D8D8D6;
+	font-size:13px;
+	display:block;
+	padding:15px;
+	text-decoration:none;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#3F3F3F;
+	line-height:20px;
+	}				
+nav ul li a:hover{
+	color:#F93;}		
+/*Navigation Bar End Here*/	
+
+
+/*Slider Section Start Here*/
+section{
+	height:538px;
+	width:672px;
+/*	border:1px solid #000;*/
+	margin-right:380px;
+    margin-top:10px;}	
+/*Slider Section End Here*/
+
+
+/*Aside Start Here*/
+
+
+.aside{
+	margin:auto;
+	height:538px;
+	width:320px;
+	float:right;
+	margin-right:0px;
+	margin-top:-550px;}
+
+/*Aside End Here*/
+
+/*Woman Dresses Section Start Here*/
+.topproducts{
+	height:30px;
+	width:1000px;
+	border-bottom:2px solid #FF9933;
+	margin-top:60px;
+	color:#FF9933;
+	text-align:center;
+	font-size:26px;
+	font-family:Verdana, Geneva, sans-serif;}	
+	
+
+.popularproducts{
+	margin-top:20px;
+	height:620px;
+	width:1000px;
+	/*border:1px solid #000;*/}	
+
+
+.popularpost1{
+	height:280px;
+	width:250px;
+	position:absolute;
+	margin-left:0px;
+	margin-top:10px;}
+.ppimghover{
+	position:absolute;
+	border:2px solid #999;
+	height:225px;
+	width:215px;
+	margin-top:0px;
+	transition:all ease 1s;}
+.ppimghover:hover{
+	opacity:0;}	
+
+	
+.popularpost2{
+	height:280px;
+	width:250px;
+	position:absolute;
+	margin-left:260px;
+	margin-top:10px;}
+
+
+.popularpost3{
+	height:280px;
+	width:250px;
+	position:absolute;
+	margin-left:520px;
+	margin-top:10px;}	
+
+
+.popularpost4{
+	height:280px;
+	width:250px;
+	position:absolute;
+	margin-left:780px;
+	margin-top:10px;}	
+
+
+.popularpost5{
+	height:280px;
+	width:250px;
+	position:absolute;
+	margin-left:780px;
+	margin-top:350px;}	
+
+
+.popularpost6{
+	height:280px;
+	width:250px;
+	position:absolute;
+	margin-left:520px;
+	margin-top:350px;}
+
+
+.popularpost7{
+	height:280px;
+	width:250px;
+	position:absolute;
+	margin-left:260px;
+	margin-top:350px;}		
+
+
+.popularpost8{
+	height:280px;
+	width:250px;
+	position:absolute;
+	margin-left:0px;
+	margin-top:350px;}			
+
+
+.ppimg{
+	opacity:0.2;
+	position:absolute;
+	border:2px solid #FC0;
+	height:225px;
+	width:215px;
+	margin-top:0px;}		
+
+
+.ppimgname{
+	position:absolute;
+	margin-top:229px;
+	border:2px solid #999;
+	height:17px;
+	width:203px;
+	background-color:#FF9933;
+	color:#FFF;
+	padding:6px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;}	
+
+/*Woman Dresses Section End Here*/
+
+/*Upcomming Product Section Start Here*/
+.categoryimg{
+	position:absolute;
+	height:350px;
+	width:1000px;
+	/*border:1px solid #000;*/
+	margin-top:30px;
+	}
+	
+	
+.product{
+	border-bottom:2px solid #FF9933;
+	text-align:center;
+	margin-top:50px;
+	height:30px;
+	width:1000px;
+	color:#FF9933;
+	font-size:26px;
+	font-family:Verdana, Geneva, sans-serif;
+	}	
+
+/*Unpcomming Product Section End Here*/
+
+/*BrandBox Section Start Here
+.brandsbox{
+	margin-top:1985px;
+	position:absolute;
+	height:170px;
+	width:100%;
+	background-color:#F0F0F0;}*/
+.brandheading{
+	font-family:Verdana, Geneva, sans-serif;
+	border-bottom:2px solid #FF4066;
+	width:1000px;
+	position:absolute;
+	margin-top:390px;
+	color:#FF4066;}
+.brandimg1{
+	margin-left:20px;
+	margin-top:485px;
+	position:absolute;
+	height:100px;
+	width:150px;
+	transition:all ease-in 0.3s;}
+.brandimg1:hover{
+	margin-top:490px;}	
+.brandimg2{
+	margin-left:250px;
+	margin-top:505px;
+	position:absolute;
+	height:40px;
+	width:150px;
+	transition:all ease-in 0.3s;}
+.brandimg2:hover{
+	margin-top:510px;}
+.brandimg3{
+	margin-left:410px;
+	margin-top:379px;
+	position:absolute;
+	height:300px;
+	width:350px;
+	transition:all ease-in 0.3s;}
+.brandimg3:hover{
+	margin-top:382px;}
+.brandimg4{
+	margin-left:750px;
+	margin-top:434px;
+	position:absolute;
+	height:200px;
+	width:200px;
+	transition:all ease-in 0.3s;}
+.brandimg4:hover{
+	margin-top:438px;}	
+/*BrandBox Section End Here*/	
+
+/*Footer Section Start Here*/
+.footer{
+	margin-top:2155px;
+	position:absolute;	
+	height:350px;
+	width:103%;
+	background-color:#000;}	
+.aboutstore{
+	font-size:20px;
+	margin:30px;
+	margin-top:650px;
+	color:#FF9933;
+	position:absolute;
+	font-family:Tahoma, Geneva, sans-serif;}	
+p{
+	color:#FFF;
+	font-size:15px;
+	margin-top:10px;}	
+.footerlogo{
+	margin-left:700px;
+	position:left;
+	margin-top:-80px;
+	}	
+.finfo{
+	margin-top:-280px;
+	position:absolute;
+	margin-left:310px;}	
+.infodetail{
+	margin-top:-250px;
+	margin-left:310px;
+	font-size:15px;
+	position:absolute;
+	color:#FFF;}	
+.connectwithus{
+	color:#FF9933;
+	margin-top:-280px;
+	position:absolute;
+	margin-left:500px;}	
+.address{
+	margin-top:10px;
+	font-size:15px;
+	color:#FFF;
+	position:absolute;}	
+/*Footer Section End Here*/	
+.follow{
+	margin-top:-280px;
+	margin-left:780px;
+    position:absolute;}
+
+a{
+	color:#FFF;
+	text-decoration:none;}
+.icon1{
+	position:absolute;
+	margin-left:0px;}	
+.icon2{
+	position:absolute;
+	margin-left:50px;}
+.icon3{
+	position:absolute;
+	margin-left:50px;
+	margin-top:60px;}
+
+.icon4{
+	position:absolute;
+	margin-left:0px;
+	margin-top:60px;}				
